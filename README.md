@@ -16,6 +16,6 @@ This is an explorative repository where we tried structuring a maven project and
 - [x] try to get 100% Test Coverage
 - [ ] create Integer Queue Implementation (new class)
 - [ ] implement test methods for IntQueue (new test class)
-- [_] try to get 100% Test Coverage
+- [ ] try to get 100% Test Coverage
 - [ ] have two source classes and test classes 
 - [ ] write documentation for all classes
