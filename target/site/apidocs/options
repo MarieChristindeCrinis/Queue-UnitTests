@@ -1,0 +1,24 @@
+--class-path
+'C:/Users/marie/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar;C:/Users/marie/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar;C:/Users/marie/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar;C:/Users/marie/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar;C:/Users/marie/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar;C:/Users/marie/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar;C:/Users/marie/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar'
+-encoding
+'UTF-8'
+-public
+-sourcepath
+'C:/Users/marie/Desktop/FH_Business Software Development/2.Semester/KONFIG/Übung02/configUebung/src/main/java;C:/Users/marie/Desktop/FH_Business Software Development/2.Semester/KONFIG/Übung02/configUebung/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/marie/Desktop/FH_Business Software Development/2.Semester/KONFIG/Übung02/configUebung/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Queue-UnitTests 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/13/docs/api' 'C:/Users/marie/Desktop/FH_Business Software Development/2.Semester/KONFIG/Übung02/configUebung/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Queue-UnitTests 1.0-SNAPSHOT API'
