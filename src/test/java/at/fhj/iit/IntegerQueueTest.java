@@ -8,6 +8,9 @@ import org.junit.jupiter.api.Test;
 
 class IntegerQueueTest {
 
+	/**
+	 * Tests if an IntegerQueue can be created
+	 */
 	@Test
 	void canCreateIntegerQueue() {
 		
@@ -16,6 +19,9 @@ class IntegerQueueTest {
 		
 	}
 	
+	/**
+	 * Tests if method offer() returns true, while the maxSize is not reached
+	 */
 	@Test
 	void offerReturnsTrueWhileMaxNotReached(){
 		
@@ -27,6 +33,9 @@ class IntegerQueueTest {
 		}
 	}
 	
+	/**
+	 * Tests if method offer() returns false, when the maxSize is reached
+	 */
 	@Test
 	void offerReturnsFalseWhenMaxIsReached(){
 		
@@ -35,6 +44,9 @@ class IntegerQueueTest {
 		assertFalse(intQue.offer(1));
 	}
 	
+	/**
+	 * Tests if method poll() returns the first element and then removes it from Queue
+	 */
 	@Test
 	void pollShouldReturnFirstElementAndRemovesItemFromQueue() {
 		
@@ -49,6 +61,9 @@ class IntegerQueueTest {
 		
 	}
 	
+	/**
+	 * Tests if method poll() returns null if the queue is empty
+	 */
 	@Test
 	void pollReturnsNullIfQueueIsEmpty() {
 		
@@ -58,6 +73,9 @@ class IntegerQueueTest {
 		
 	}
 	
+	/**
+	 * Tests if method remove() returns the Exception NoElementIsLeftException if no element is left
+	 */
 	@Test
 	void removeReturnsExceptionIfNoElementIsLeft() {
 		
@@ -66,6 +84,9 @@ class IntegerQueueTest {
 		
 	}
 	
+	/**
+	 * Tests if method remove() returns an element if there are elements to return
+	 */
 	@Test
 	void removeReturnsElement() {
 		int ele = 1;
@@ -79,6 +100,9 @@ class IntegerQueueTest {
 		
 	}
 	
+	/**
+	 * Tests if method peek() returns the first element
+	 */
 	@Test
 	void peekReturnsFirstElement() {
 		int ele = 1;
@@ -89,6 +113,9 @@ class IntegerQueueTest {
 		assertEquals(ele, intQue.peek());	
 	}
 	
+	/**
+	 * Tests if method peek() returns null if there is no element
+	 */
 	@Test
 	void peekReturnsNull() {
 		IntegerQueue intQue = new IntegerQueue(5);
@@ -96,12 +123,18 @@ class IntegerQueueTest {
 		assertNull(intQue.peek());
 	}
 	
+	/**
+	 * Tests if method element() returns a NoElementIsLeftException if there is no element left 
+	 */
 	@Test
 	void elementReturnsExceptionIfNoElementIsLeft() {
 		IntegerQueue intQue = new IntegerQueue(5);
 		assertThrows(NoSuchElementException.class, () -> {intQue.element();});
 	}
 	
+	/**
+	 * Tests if method element() returns an element
+	 */
 	@Test
 	void elementReturnsElement() {
 		int ele = 1;
