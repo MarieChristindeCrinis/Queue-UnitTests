@@ -9,8 +9,10 @@ import java.util.NoSuchElementException;
 
 class StringQueueTest {
 
-   // TODO Write your own tests
 
+    /**
+     * Here we test the pool method of the StringQueue
+     */
     @Test
     public void testStringQueuePool() {
         StringQueue queue = new StringQueue(5);
@@ -20,6 +22,9 @@ class StringQueueTest {
         assertEquals(testString, test);
     }
 
+    /**
+     * Here we test the remove method and it's exceptions of the StringQueue
+     */
     @Test
     public void testStringQueueRemove() {
         StringQueue queue = new StringQueue(1);
@@ -33,6 +38,9 @@ class StringQueueTest {
         }
     }
 
+    /**
+     * Here we test the element method and it's exception of the StringQueue
+     */
     @Test
     public void testStringQueueElement() {
         StringQueue queue = new StringQueue(1);
@@ -46,6 +54,9 @@ class StringQueueTest {
         assertEquals("test", test);
     }
 
+    /**
+     * Here we test the offer method of the StringQueue
+     */
     @Test
     public void testStringQueueOffer() {
         StringQueue queue = new StringQueue(1);
