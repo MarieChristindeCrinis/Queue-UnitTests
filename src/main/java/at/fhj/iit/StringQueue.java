@@ -11,10 +11,10 @@ import java.util.NoSuchElementException;
 public class StringQueue implements IQueue {
 
   private List<String> elements = new ArrayList<String>();
-  private int maxSize = 5;
+  private int maxSize;
 
   public StringQueue(int maxsize) {
-    maxSize = maxSize;
+      this.maxSize = maxsize;
   }
 
   @Override
@@ -31,7 +31,7 @@ public class StringQueue implements IQueue {
   public String poll() {
     String element = peek();
 
-    if (elements.size() == 0) {
+    if (element != null ) {
       elements.remove(0);
     }
 
@@ -40,19 +40,21 @@ public class StringQueue implements IQueue {
 
   @Override
   public String remove() {
-    String element = poll();
-    element = "";
+    String element = peek();
     if (element == null)
       throw new NoSuchElementException("there's no element any more");
-
+    else {
+      elements.remove(0);
+    }
     return element;
   }
 
   @Override
   public String peek() {
     String element;
-    if (elements.size() > 0)
-      element = elements.get(0);
+    if (elements.size() > 0) {
+        element = elements.get(0);
+    }
     else
       element = null;
 
