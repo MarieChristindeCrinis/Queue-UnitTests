@@ -8,8 +8,8 @@
   <artifactId>Queue</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Queue</name>
-  <url>https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/junit5/Queue</url>
+  <name>Queue-UnitTests</name>
+  <url>https://github.com/MarieChristindeCrinis/Queue-UnitTests</url>
 
   <developers>
     <developer>
