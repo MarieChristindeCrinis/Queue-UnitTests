@@ -18,4 +18,4 @@ This is an explorative repository where we tried structuring a maven project and
 - [x] implement test methods for IntQueue (new test class)
 - [x] try to get 100% Test Coverage
 - [x] have two source classes and test classes 
-- [ ] write documentation for all classes
+- [x] write documentation for all classes
