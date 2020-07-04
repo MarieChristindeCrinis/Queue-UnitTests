@@ -10,8 +10,8 @@ This is an explorative repository where we tried structuring a maven project and
 
 ### TODOs ###
 
--[ ] add repo to pom.xml
--[ ] add devs to pom.xml
+-[x] add repo to pom.xml
+-[x] add devs to pom.xml
 -[ ] implement test methods for StringQueue
 -[ ] try to get 100% Test Coverage
 -[ ] create Integer Queue Implementation (new class)
