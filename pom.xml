@@ -28,14 +28,14 @@
       </properties>
     </developer>
     <developer>
-      <id>Rigbin</id>
-      <name>Harald Schwab</name>
-      <email>harald.schwab2@fh-joanneum.at</email>
-      <url>https://github.com/Rigbin</url>
-      <organization>FH JOANNEUM GmbH</organization>
-      <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+      <id>LauraSophieBinder</id>
+      <name>Laura Sophie Binder</name>
+      <email>binder.laura@edu.campus02.at</email>
+      <url>https://github.com/LauraSophieBinder</url>
+      <organization> FH Campus 02</organization>
+      <organizationUrl>https://www.campus02.at</organizationUrl>
       <roles>
-        <role>Researcher</role>
+        <role>Student</role>
       </roles>
       <timezone>Europe/Vienna</timezone>
       <properties/>
